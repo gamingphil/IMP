@@ -1,2 +1,2 @@
 # IMPI
-IMPI ist lame
+IMPI is lame
