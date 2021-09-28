@@ -31,10 +31,12 @@ public int getZufallszahl(int min, int max) {
 }
 
 public void erzeugeZufallsarray(int laenge) {
-  zahlen = new int[laenge];
-  
-  for(int i= 0; i< laenge; i++) {
-    zahlen[i] = getZufallszahl(1, 300);
+  if (laenge > 0) {  
+    zahlen = new int[laenge];
+    
+    for(int i= 0; i< laenge; i++) {
+      zahlen[i] = getZufallszahl(1, 300);
+    }
   }
 }
   
