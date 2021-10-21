@@ -1,15 +1,15 @@
 public void setup() {
     size(500, 500);
-    whileLoop();
-    forLoop();
-    arrays();
+    // whileLoop();
+    // forLoop();
+    // arrays();
     ifSchleife();
-}
+} 
 
 public void whileLoop() {
     int n = 0;
     while(n < 5) {
-        print("Hallo!\n");
+        print("Hallo!\n"); 
         n++;
     }
 }
@@ -24,13 +24,13 @@ public void arrays() {
     int[] zahlen = {5, 10, 27, 1, 13};
     zahlen[1] = 9;
 
-    
-    String[] tiere = {"Gorilla", "Bieber", "Koala"};
-    // print(tiere[2]);
-
     int[] dreiZahlen = new int[3];
-    // print(zahlen.length);
+    
 
+    String[] tiere = {"Gorilla", "Bieber", "Koala"};
+    print(tiere[2]);
+
+    print(zahlen.length);
     for(int i = 0; i < dreiZahlen.length; i++) {
         dreiZahlen[i] = 3;
     }
@@ -38,12 +38,12 @@ public void arrays() {
 
 public void ifSchleife() {
     int x = 314;
-    int y = 4000;
+    int y = 2000;
     if(x > y) {
         print("x ist größer als y");
-    }else if(y > x){
+    }else if(y > x) {
         print("y ist größer als x");
-    }else {
+    }else{
         print("x und y sind gleich groß");
     }
 }
